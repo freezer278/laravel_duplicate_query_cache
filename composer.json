@@ -1,0 +1,30 @@
+{
+    "name": "vmorozov/laravel_duplicate_query_cache",
+    "type": "library",
+    "description": "This small library contents all needed code to cache duplicate queries during one request ",
+    "keywords": ["laravel", "performance", "cache", "database", "query builder"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vladimir Morozov",
+            "email": "freezer278@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "illuminate/http": "^5.2",
+        "illuminate/support": "^5.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vmorozov\\DuplicateQueryCache\\": "src"
+        }
+    },
+    "autoload-dev": {
+
+    },
+    "minimum-stability": "stable"
+}
